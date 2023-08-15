@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+.body{
+    background-image: url(MEDIA/hjk.jpg );
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+table.login {
+    border-collapse: collapse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: linear-gradient(#08126b, #2435cf);
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 6);
+}
+td {
+    padding: 25px 50px 0 50px;
+    border-width: 1px;
+    height: 35px;
+    width: 400px;
+}
+
+}
+
+td.header{
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 30PX;
+    color: #fff;
+
+}
+
+.al {
+    position: ;
+}
+
+.al input{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    outline: none;
+}
+
+label .place{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.c input{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #0808088f ;
+    background-color: #0808088f;
+    padding: 8px 50px 8px 50px;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    outline: none;
+}
+td.c {
+    padding-top: ;
+    font-size: 20px;
+    text-align: center;
+}
+input.button:hover {
+    background-color: #3f49a596;
+    border-color: #3f49a596;
+    padding: 9px 51px 9px 51px;
+    transition: ease 0.5s;
+}
+td.d {
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    padding-bottom: 13px;
+}
+a.sign {
+    text-decoration:unset ;
+}
+a.sign:hover {
+    color: #2600fd;
+}

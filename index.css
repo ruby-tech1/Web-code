@@ -1,0 +1,130 @@
+body {
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.472);
+	height: 100vh;
+	width: 100%;
+
+}
+
+.menu_bar {
+	text-align: right;
+	padding-right: 33px;
+}
+.menu {
+	font-size: 25px;
+	display: flex;
+	font-family: arial;
+	text-align: right;
+}
+.logo {
+	padding: 0px 200px 0px 0px;
+}
+ol{
+padding: 22px 17px 22px 17px;
+}
+
+.menu a::after {
+	content: '';
+	width: 0px;
+	height: 2px;
+	margin: auto;
+	display: block;
+	transition: .2s;
+	background: red;
+}
+.menu a:hover::after {
+	width: 100%;
+}
+
+.help {
+	background-color: rgba(243, 0, 0, 0.801);
+	border-color: rgba(243, 0, 0, 0.801);
+	color: white;
+	border-radius: 5px;
+	font-size: 25px;
+	padding: 5px 15px 5px 15px;
+	height: 60px;
+}
+
+
+.sub {
+	background: rgba(211, 201, 201, 0.685);
+	padding: 160px 100px 130px 100px;
+	display: flex;
+	box-sizing: border-box;
+	background-position: cover;
+}
+
+.sub_level {
+	padding-top: 100px;
+}
+
+.get {
+	font-size: 17px;
+	font-family: arial;
+}
+
+.header_text {
+	font-size: 60px;
+	font-family: arial;
+}
+
+input.started {
+	padding: 10px 70px 10px 70px;
+	background-color:unset;
+	border-color: rgba(243, 0, 0, 0.801);
+	border-radius: 5px;
+	font-size: 25px;
+	color: rgba(243, 0, 0, 0.801);
+}
+
+input.started:hover {
+	color: white;
+	background-color:  rgba(243, 0, 0, 0.801);
+}
+
+.pic {
+	padding: 0px 70px;
+}
+
+.sam_text {
+	text-align: center;
+	padding: 60px 0px 0px 0px;
+	font-family: arial;
+	font-size: 40px;
+}
+
+.board {
+	display: inline-flex;
+	padding: 20px;
+}
+
+.exa1 {
+	padding: 28px;
+}
+
+.exa2 {
+	background-color: rgba(211, 201, 201, 0.685);
+	border-radius: 10px;
+	padding: 10px 20px;
+	
+}
+
+div.exa2:hover {
+	box-shadow: 5px 10px 25px 10px rgba(0, 0, 0, 0.356);
+	transition: ease .3s;
+}
+
+.head_r {
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+}
+
+p.samm {
+	font-size: 19px;
+	font-family: Arial;
+	text-align: center;
+}
